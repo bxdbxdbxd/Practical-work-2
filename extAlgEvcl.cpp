@@ -9,7 +9,6 @@ int main() {
     int a, b, count = 1;
     int x0 = 1, y0 = 0, x = 0, y = 1;
     cin >> a >> b;
-    cout << a << "\t" << b << endl;
     del_alg(a, b, x0, y0, x, y, count);
     return 0;
 }
